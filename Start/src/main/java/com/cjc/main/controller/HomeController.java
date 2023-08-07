@@ -9,4 +9,10 @@ public class HomeController
 	{
 		return "Hello";
 	}
+	
+	@RequestMapping("/user")
+	public String preLogout()
+	{
+		return "by";
+	}
 }
